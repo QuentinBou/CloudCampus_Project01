@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Life | Nous contacter</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <a href="#header"><i id="up" class="fas fa-angle-up"></i></a>
+    <header id="header">
+      <div class="top-bar">
+        <div class="logo">
+          <img src="img/logo.png" alt="logo du site" width="60" />
+          <h2>Bike Life</h2>
+        </div>
+        <nav class="header-nav">
+          <a href="index.html">Accueil</a>
+          <a href="glossaire.html">Glossaire</a>
+          <a href="team.html">Qui sommes-nous ?</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <section class="form-section">
+          <h1>Contactez-nous</h1>
+          <div class="form-container">
+            <form action="script.php">
+              
+              <div class="names">
+                <label for="name" id="name" >Prénom: </label>
+                <input type="text" id="name" placeholder="Ex: Antoine"> 
+                <label for="surname" id="surname" >Nom: </label>
+                <input type="text" id="surname" placeholder="Ex: Dupont">
+              </div>
+              
+              <div class="mail">
+                <label for="email" id="email" >Email: </label>
+                <input type="email" id="email" placeholder="Ex: exemple@exemple.com">
+              </div>
+              
+              <div class="msg">
+                <label for="msg">Votre message: </label>
+                <input type="text" name="msg" id="msg">
+              </div>
+
+              <div class="news">
+                <span>Souscrire à la newsletter ?</span>
+                <div class="radio-inp">
+                  <input type="radio" id="yes" name="news">
+                  <label for="yes">Accepter</label>
+                  <input type="radio" id="no" name="news">
+                  <label for="no">Refuser</label>
+                </div>
+              </div>
+
+              <button type="submit">Envoyer</button>
+            </form>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <section class="footer-sec">
+            <h3>Le but du site ?</h3>
+            <p>Bonne et mauvaise question, à vrai dire aucun but précis, si ce n'est de partager ce qui à mes yeux est la meilleure passion ! 
+                Par la suite mes voyages seront racontés sur ce site, mes "astuces", mes conseils et bien d'autres :)
+            </p>
+        </section>
+        <section class="footer-sec">
+            <h3>Tu cherche une autre page à rider ?</h3>
+            <nav>
+              <a href="index.html">Accueil</a>
+              <a href="glossaire.html">Glossaire</a>
+              <a href="team.html">Qui sommes-nous ?</a>
+              <a href="contact.html">Nous contacter</a>
+            </nav>
+        </section>
+        <section class="footer-sec">
+            <h3>Tu veux en apprendre plus ?</h3>
+            <nav style="text-align: justify;">
+                <a href="https://www.highside-moto.com/" target="_blank">HighSide, un très bon magazine moto avec des vidéos excellente sur leur chaîne YT</a>
+                <a href="https://moto-station.com/" target="_blank">Moto Station, une grande référence moto</a>
+                <a href="https://www.motomag.com/" target="_blank">Moto Mag, tu as de quoi te régaler ici aussi ! </a>
+                <a href="https://www.youtube.com/watch?v=MYA6Bky2qZ4" target="_blank">Vidéo drôle et ludique sur la façon de rouler en groupe ! A Voir Absolument !</a>
+            </nav>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
